@@ -207,7 +207,7 @@
                     url = "https://www.bing.com/search?q=" + encodeURIComponent(query);
                   }
                   // 在新标签页打开搜索结果
-                  window.open(url, "_blank");
+                  window.location.href = url;
                   return false; // 阻止表单默认提交
                 }
             </script>
